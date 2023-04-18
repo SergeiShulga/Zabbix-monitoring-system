@@ -1,4 +1,7 @@
-Задание 1
+# Zabbix monitoring system -Сергей Шульга
+
+
+###Задание 1
 Установите Zabbix Server с веб-интерфейсом.
 
 Процесс выполнения
@@ -7,7 +10,7 @@
 Пользуясь конфигуратором комманд с официального сайта, составьте набор команд для установки последней версии Zabbix с поддержкой PostgreSQL и Apache
 Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server
 Решение:
-# Zabbix monitoring system
+
 1. Выбераем платформу
    ВЕРСИЯ ZABBIX 6.4
    ДИСТРИБУТИВ ОС Debian
@@ -40,7 +43,7 @@
    The default URL for Zabbix UI when using Apache web server is http://192.168.56.101/zabbix
    логин для входа: Admin, пароль: zabbix 
    
-Задание 2
+###Задание 2
 Установите Zabbix Agent на два хоста.
 
 Процесс выполнения
@@ -51,3 +54,18 @@
 Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
 
 Решение:
+Установите и сконфигурируйте Zabbix для выбранной платформы
+a. Установите репозиторий Zabbix
+Документация
+# wget https://repo.zabbix.com/zabbix/6.4/debian/pool/main/z/zabbix-release/zabbix-release_6.4-1+debian11_all.deb
+# dpkg -i zabbix-release_6.4-1+debian11_all.deb
+# apt update
+b. Установите Заббикс aгент2
+# apt install zabbix-agent2 zabbix-agent2-plugin-*
+c. Запустите процесс Zabbix агента2
+Запустите процесс Zabbix агента2 и настройте его запуск при загрузке ОС.
+
+# systemctl restart zabbix-agent2
+# systemctl enable zabbix-agent2
+
+
