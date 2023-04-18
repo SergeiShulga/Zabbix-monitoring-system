@@ -6,7 +6,7 @@
 Установите PostgreSQL. Для установки достаточна та версия что есть в системном репозитороии Debian 11
 Пользуясь конфигуратором комманд с официального сайта, составьте набор команд для установки последней версии Zabbix с поддержкой PostgreSQL и Apache
 Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server
-Решение:
+### Решение:
 1. Выбераем платформу
    ВЕРСИЯ ZABBIX 6.4
    ДИСТРИБУТИВ ОС Debian
@@ -40,7 +40,6 @@
    логин для входа: Admin, пароль: zabbix 
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_1_11zon.png)
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/002_2_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/002_3_11zon.png)
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/004_5_11zon.png)
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/005_6_11zon.png)
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/006_7_11zon.png)
@@ -56,7 +55,7 @@
 Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
 Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
 
-Решение:
+### Решение:
 Установите и сконфигурируйте Zabbix для выбранной платформы
 a. Установите репозиторий Zabbix
 Документация
