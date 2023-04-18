@@ -39,13 +39,13 @@
    The default URL for Zabbix UI when using Apache web server is http://192.168.56.101/zabbix
    логин для входа: Admin, пароль: zabbix 
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_1_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_2_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_3_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_4_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_5_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_6_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_7_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_8_11zon.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/002_2_11zon.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/002_3_11zon.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/004_5_11zon.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/005_6_11zon.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/006_7_11zon.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/007_8_11zon.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/008_9_11zon.png)
 ### Задание 2
 Установите Zabbix Agent на два хоста.
 
