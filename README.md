@@ -42,8 +42,10 @@
    f. Open Zabbix UI web page
    The default URL for Zabbix UI when using Apache web server is http://192.168.56.101/zabbix
    логин для входа: Admin, пароль: zabbix 
-   
-###Задание 2
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_1_11zon.png)
+
+
+### Задание 2
 Установите Zabbix Agent на два хоста.
 
 Процесс выполнения
