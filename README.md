@@ -29,7 +29,7 @@
    На хосте Zabbix сервера импортируйте начальную схему и данные. Вам будет предложено ввести недавно созданный пароль.
    #### zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
    d. Настройте базу данных для Zabbix сервера
-   Отредактируйте файл /etc/zabbix/zabbix_server.conf
+   Редактируйте файл /etc/zabbix/zabbix_server.conf
    DBPassword=password
    e. Запустите процессы Zabbix сервера и агента
    Запустите процессы Zabbix сервера и агента и настройте их запуск при загрузке ОС.
@@ -68,8 +68,10 @@ c. Запустите процесс Zabbix агента2
 Запустите процесс Zabbix агента2 и настройте его запуск при загрузке ОС.
 #### systemctl restart zabbix-agent2
 #### systemctl enable zabbix-agent2
-
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_9_11zon.png)
-![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/001_10_11zon.png)
+Насираиваем агент так, чтобы он принял подключение от сервера:
+#### sudo nano /etc/zabbix/zabbix_agent2.conf
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/14.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/15.png)
+![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/009_10_11zon.png)
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/011_11_11zon.png)
 ![alt text](https://github.com/SergeiShulga/Zabbix-monitoring-system/blob/main/img/012_12_11zon.png)
